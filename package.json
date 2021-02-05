@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "list of free REST APIs to support other apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json:server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayurkode7/api.git"
+  },
+  "author": "Mayur Kode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayurkode7/api/issues"
+  },
+  "homepage": "https://github.com/mayurkode7/api#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
